@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playwrite+HR:wght@100..400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+
+.title{
+    font-family: "Playwrite HR", cursive 
+}
+
+.color-BG{
+background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); 
+background-color: #F472B6;
+}
+::placeholder {
+    color: #000000;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: red;
+  }
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000063;
+  }
