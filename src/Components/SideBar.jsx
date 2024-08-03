@@ -58,7 +58,7 @@ const SideBar = () => {
     <div
       className={` ${
         showSidebar ? " w-[300px] shadow-2xl" : "w-[3.3rem]"
-      } transition-all ease-linear duration-200 h-screen z-10  bg-transparent  text-black py-3 flex-shrink-0`}
+      } transition-all ease-linear duration-200 h-screen   bg-transparent  text-black py-3 flex-shrink-0`}
     >
       {!showSidebar && (
         <div className=" border-b-2 p-3 border-b-slate-600 flex items-center justify-between gap-4">
